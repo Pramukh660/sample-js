@@ -1,0 +1,48 @@
+body {
+  background-image: url("2898260.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+
+button {
+  margin: 150px 30px;
+  background-color: rgb(172, 172, 172);
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #bbbbbb;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: transform 0.5s;
+}
+
+button:hover {
+  background-color: #9b9797;
+  transform: scale(1.05);
+}
+
+button:hover::after {
+  visibility: visible;
+  opacity: 1;
+  /* Make visible and opaque on hover */
+}
+
+#date{
+  color: white;
+}
+
+.text-box {
+  font-size: 16px;
+  padding: 35px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 50%;
+  color: white;
+  text-align: center;
+}

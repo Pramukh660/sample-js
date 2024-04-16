@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page-2b</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <p id="date"></p>
+    <div style="text-align: center;">
+        <button id="2">FinOps</button>
+        <button id="3">Monitoring</button>
+    </div>
+
+    <div class="text-box">
+        <ul>
+            <li>FinOps</li>
+            <li>Monitoring</li>
+        </ul>
+    </div>
+
+    <script>
+        document.getElementById("date").innerHTML = "Date : " + Date();
+        document.getElementById("2").addEventListener('click', function () {
+            window.location.href = "page4.html";
+        });
+        document.getElementById("3").addEventListener('click', function () {
+            window.location.href = "page5.html";
+        });
+    </script>
+</body>
+
+</html>

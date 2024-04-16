@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page-3</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <p id="date"></p>
+    <div style="text-align: center;">
+        <button id="1">Resource Management</button>
+        <button id="2">Provisioning</button>
+        <button id="3">Deprovisioning</button>
+    </div>
+    <div class="text-box">
+        <ul>
+            <li>Resource Management</li>
+            <li>Provisioning</li>
+            <li>Deprovisioning</li>
+        </ul>
+    </div>
+
+    <script>
+        document.getElementById("1").addEventListener('click', function () {
+            window.location.href = "page3.html";
+        });
+        document.getElementById("2").addEventListener('click', function () {
+            window.location.href = "page3.html";
+        });
+        document.getElementById("3").addEventListener('click', function () {
+            window.location.href = "page3.html";
+        });
+        document.getElementById("date").innerHTML = "Date : " + Date();
+        
+    </script>
+
+</body>
+
+</html>
